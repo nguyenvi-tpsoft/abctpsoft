@@ -16,7 +16,7 @@
     <script>
         function laygiongnoi() {
             var textinput = $('#text_input').val();
-            responsiveVoice.speak(textinput);
+            responsiveVoice.speak(textinput, "Vietnamese Female");
         }
     </script>
 </body>
