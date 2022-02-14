@@ -12,10 +12,12 @@
 
 <body>
     <input type="text" id="text_input">
-    <button onclick="responsiveVoice.speak('The Internet is a series of tubes!');" type="button" value="Play">Play</button>
+    <button onclick="laygiongnoi()" type="button" value="Play">Play</button>
     <script>
-        var textinput = $('#text_input').val();
-        responsiveVoice.speak(textinput);
+        function laygiongnoi() {
+            var textinput = $('#text_input').val();
+            responsiveVoice.speak(textinput);
+        }
     </script>
 </body>
 
