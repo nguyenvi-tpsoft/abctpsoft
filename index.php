@@ -12,7 +12,7 @@
 
 <body>
     <input type="text" id="text_input">
-    <button onclick="laygiongnoi()" type="button" value="Play">Play</button>
+    <button onclick="laygiongnoi()" type="button" id="playbutton" value="Play">Play</button>
     <script>
         function laygiongnoi() {
             var textinput = $('#text_input').val();
